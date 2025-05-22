@@ -11,7 +11,7 @@ const exercise6 =async ()=>
 
 
 */
-        try{
+        
             const userFeedback = await fetch('https://jsonplaceholder.typicode.com/users');  /// Number 1 : sending api request to 
             const users = await userFeedback.json();   // Api response 
             console.log('\n --- Users ---');
@@ -21,13 +21,10 @@ const exercise6 =async ()=>
                 console.log(`Name: ${user.name}, Email: ${user.email}, companyName: ${user.company.name} `);
             });
 
-        }catch(error){
-            console.log('Error retrieving users:', error);
-
-        }
+        
         /////////////// Number 3 /////////////
         console.log('\n---- Fetch Posts and Logging titles ---')
-        try{
+        
             const postRequest = await fetch('https://jsonplaceholder.typicode.com/posts');
             const posts = await postRequest.json();
             console.log('\n --- Post Titles ---');
@@ -42,9 +39,7 @@ const exercise6 =async ()=>
 
             console.log('\nThe number of post with titles containing "qui" :', quiCount);
             
-        }catch(error){
-            console.log('Error retrieving post titles: ', error);
-        }
+        
 
         // End of Exercise 6
         console.log('\n');

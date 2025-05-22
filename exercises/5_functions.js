@@ -5,7 +5,7 @@ const exercise5 = ()=>
         console.log('Exercise 5');
 
         // Please Complete Exercise 5 here
-        // number 1
+        // number 1- To log out result of the test whether it passed or not. By checking value of passed is true or false
         function logResult(testName, passed){
             const status = passed ? "Pass" : "Fail";
             console.log(` Test: ${testName} : ${status}`);

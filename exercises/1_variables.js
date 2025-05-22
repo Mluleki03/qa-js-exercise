@@ -37,11 +37,11 @@ function exercise1()
         console.log('\n');
 
 
-        console.log("testName:", testName, "| Type:", typeof testName);
-        console.log("isPassed:", isPassed, "| Type:", typeof isPassed);
-        console.log("executionTime:", executionTime, "| Type:", typeof executionTime);
-        console.log("message:", message, "| Type:", typeof message); // typeof null is "object"
-        console.log("time:", time, "| Type:", typeof time);
+        console.log(`testName: ${testName} | Type: ${typeof testName}`);
+        console.log(`isPassed: ${isPassed} | Type: ${typeof isPassed}`);
+        console.log(`executionTime: ${executionTime} | Type: ${typeof executionTime}`);
+        console.log(`message: ${message} | Type: ${typeof message}`); // typeof null is "object"
+        console.log(`time:" ${time}, | Type: ${typeof time}`);
         console.log('\n');
 
 
