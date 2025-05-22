@@ -17,9 +17,9 @@ const exercise3 = ()=>
         // End of Exercise 3
         console.log("");
 
-        console.log("Exercise 3 completed");
-        console.log("");
-        console.log("");
+        console.log("--- Exercise 3 completed ---");
+        console.log('\n');
+
 
     }
 
